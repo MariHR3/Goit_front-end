@@ -1,0 +1,31 @@
+.menu {
+    width: 900px;
+    height: 11px;
+    margin: 77px auto 100px auto;
+    text-align: center;
+}
+
+
+.menu_list {
+    display: inline;
+    text-align: justify;
+    list-style-type: none;
+}
+
+.links {
+    padding-right: 120px;
+}
+
+
+.menu_item_link {
+color: #626262;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 14px;
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+}
+
+.menu_item_link:hover {
+    color: #03A9F4;
+}
