@@ -1,11 +1,14 @@
 .main {
     width: 1200px;
     height: 370px;
-    text-align: center;
     margin: 0 auto;
 }
 
 .services {}
+
+.main_servises {
+    text-align: center;
+}
 
 .services_subtitle {
     font-size: 24px;
@@ -48,7 +51,7 @@
     }
 
 .card_img {
-    margin-right: 27px;
+    margin: 20px;
     width: 33px;
     height: 32px;
     display: flex;
@@ -80,7 +83,11 @@
     margin-top: 18px;
 }
 
-.team {}
+.team {
+    text-align: center;
+}
+
+
 
 .team_subtitle {
     font-size: 24px;
