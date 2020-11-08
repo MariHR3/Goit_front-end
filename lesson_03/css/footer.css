@@ -1,0 +1,16 @@
+.footer {
+margin-bottom: 70px;
+}
+
+.button {
+    text-align: center;
+    margin: 10px auto 50px auto;
+}
+
+.button_load {
+    border: 2px solid #626262;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 25px;
+    color: #626262;
+}

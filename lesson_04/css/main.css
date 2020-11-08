@@ -1,0 +1,155 @@
+.main {
+    width: 1200px;
+    height: 370px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.services {}
+
+.services_subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+    text-transform: none;
+    color: #333333;
+}
+
+.services_title {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 22px auto 0 auto;
+
+}
+
+.services_title::after {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 4px;
+    background-color: #F38181;
+    margin: 41px auto 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 65px;
+}
+
+.wrapper {
+    display: flex;
+    width: 370px;
+    }
+
+.card_img {
+    margin-right: 27px;
+    width: 33px;
+    height: 32px;
+    display: flex;
+}
+
+.text_wrapper {
+    width: 828px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: flex-start;
+    margin: 20px auto 70px 20px;
+}
+
+
+.card_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.card_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999999;
+    margin-top: 18px;
+}
+
+.team {}
+
+.team_subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+    text-transform: none;
+    color: #333333;
+}
+
+.team_title {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 22px auto 0 auto;
+}
+
+.team_title::after {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 4px;
+    background-color: #F38181;
+    margin: 41px auto 0 auto;
+}
+
+.main_text {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    margin: 46px auto 0 auto;
+}
+
+.wrapper_team {
+display: flex;
+justify-content: space-evenly;
+}
+
+
+.card_team {
+    
+}
+
+.card_photo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 381px;
+    height: 471px;
+    margin: 90px auto 0 auto;
+}
+
+.img_person {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 30px auto 0 auto;
+}
+
+.img_name {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 15px auto 0 auto;
+}
+

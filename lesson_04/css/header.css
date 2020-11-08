@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 950px;
+    margin: 28px auto 102px auto;
+}
+/* 1920/1667 */
+
+.logo {}
+
+.logo_link {
+    color: #95E1D3;
+    text-transform: none;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.menu {
+    width: 372px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_list_item {}
+
+.menu_item_link {
+    color: #95E1D3;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+
+.menu_item_link:hover {
+    color: #F38181;
+    cursor: pointer;
+}
