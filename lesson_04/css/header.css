@@ -27,17 +27,32 @@
     align-items: center;
 }
 
-.menu_list_item {}
 
 .menu_item_link {
     color: #95E1D3;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-
+    text-transform: uppercase;
+    position: relative;
 }
 
 .menu_item_link:hover {
     color: #F38181;
     cursor: pointer;
+
+}
+.menu_item_link::after{
+    display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #F38181;
+	content: "";
+}
+
+.menu_item_link:hover:after,
+.menu_item_link:focus:after {
+	width: 100%;
 }
