@@ -3,17 +3,19 @@
     height: 11px;
     margin: 77px auto 100px auto;
     text-align: center;
+
 }
 
 
 .menu_list {
-    display: inline;
-    text-align: justify;
-    list-style-type: none;
+    width:20%;
+    margin:0;
+    padding:0;
 }
 
 .links {
-    padding-right: 120px;
+    display: inline-block;
+    list-style-type: none;
 }
 
 
