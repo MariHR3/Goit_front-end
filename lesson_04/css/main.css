@@ -1,10 +1,7 @@
 .main {
     width: 1200px;
-    height: 370px;
     margin: 0 auto;
 }
-
-.services {}
 
 .main_servises {
     text-align: center;
@@ -48,22 +45,18 @@
 .wrapper {
     display: flex;
     width: 370px;
+    margin-bottom: 100px;
     }
 
 .card_img {
-    margin: 20px;
+    margin-right: 29px;
     width: 33px;
     height: 32px;
-    display: flex;
+    
 }
 
 .text_wrapper {
-    width: 828px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: flex-start;
-    margin: 20px auto 70px 20px;
+    width: 270px;
 }
 
 
@@ -126,20 +119,12 @@
 .wrapper_team {
 display: flex;
 justify-content: space-evenly;
-}
-
-
-.card_team {
-    
+margin-top: 90px;
 }
 
 .card_photo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 381px;
     height: 471px;
-    margin: 90px auto 0 auto;
 }
 
 .img_person {
@@ -155,8 +140,8 @@ justify-content: space-evenly;
     font-size: 15px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    color: #333333;
+    font-style: italic;
+    color: #999999;
     margin: 15px auto 0 auto;
 }
 
