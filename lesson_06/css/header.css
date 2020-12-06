@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 950px;
+    height: 65px;
+    margin: 0 auto;
+}
+
+.logo_link {
+    color: #FED136;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.menu {
+    width: 490px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_item {
+    color: #222222;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.menu_item:hover {
+    color: #FED136;
+    cursor: pointer;
+}
