@@ -44,10 +44,10 @@
 }
 
 .card_title {
-    text-align: center;
-    margin: 0px auto 16px auto;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0px auto 16px auto;
 }
 
 .card_text {
@@ -63,16 +63,16 @@
     width: auto;
     background-color: #222222;
     position: relative;
-    margin: 120px 0px 0px 0px;
+    margin-top: 120px;
 }
 
 .contact_wrapper {
-    background-image: url('../images/map.png');
-    background-color:rgba(0,0,0,.2);
+    background-image:url('../images/map.png');
+    background-color:rgba(0,0,0,.5);
     background-repeat: no-repeat;
-    background-position: right top 120px;
+    background-position: right top 135px;
     padding-bottom: 110px;
-    padding-top: 110px;
+    padding-top: 110px; 
 }
 
 .contact_title_div {
@@ -81,9 +81,9 @@
 }
 
 .contact_main_title {
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     margin: 0px auto 11px auto;
 }
@@ -114,34 +114,34 @@
 .form_name {
     width: 455px;
     height: 50px;
-    margin: 0px 30px 30px 0px;
-    padding: 20px 20px 20px 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    margin: 0px 30px 30px 0px;
+    padding: 20px 20px;
     border: none;
     border-radius: 3px;
 }
 
 .form_email {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     width: 455px;
     height: 50px;
     margin: 0px 30px 30px 0px;
-    padding: 20px 20px 20px 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    padding: 20px 20px;
     border: none;
     border-radius: 3px;
 }
 
 .form_subject {
-    width: 455px;
-    height: 50px;
-    margin: 0px 30px 0px 0px;
-    padding: 20px 20px 20px 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     border: none;
     border-radius: 3px;
+    width: 455px;
+    height: 50px;
+    margin-right: 30px;
+    padding: 20px 20px;
 }
 
 .form_name::placeholder, .form_email::placeholder, .form_subject::placeholder, .form_message::placeholder {
