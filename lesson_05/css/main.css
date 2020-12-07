@@ -56,46 +56,7 @@
     flex-direction: column;
 }
 
-.servise_card_01 {
-    width: 275px;
-    display: flex;
-    align-items: flex-start;
-    height: 69px;
-    margin-bottom: 100px;
-}
-
-.servise_card_02 {
-    width: 275px;
-    display: flex;
-    align-items: flex-start;
-    height: 69px;
-    margin-bottom: 100px;
-}
-
-.servise_card_03 {
-    width: 275px;
-    display: flex;
-    align-items: flex-start;
-    height: 69px;
-    margin-bottom: 100px;
-}
-
-.servise_card_04 {
-    width: 275px;
-    display: flex;
-    align-items: flex-start;
-    height: 69px;
-    margin-bottom: 100px;
-}
-.servise_card_05 {
-    width: 275px;
-    display: flex;
-    align-items: flex-start;
-    height: 69px;
-    margin-bottom: 100px;
-}
-
-.servise_card_06 {
+.servise_card_01, .servise_card_02, .servise_card_03, .servise_card_04, .servise_card_05, .servise_card_06 {
     width: 275px;
     display: flex;
     align-items: flex-start;
