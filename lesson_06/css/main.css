@@ -184,7 +184,6 @@
 
 .contact_img_world_map {
     position: absolute;
-    z-index: 1;
     top: 130px; 
     transform: translate(170%);
 }
