@@ -155,8 +155,8 @@
 .form_message {
     width: 455px;
     height: 210px;
-    margin: 0px auto 0px auto;
-    padding: 20px 20px 20px 20px;
+    margin: 0px auto;
+    padding: 20px 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     border: none;
@@ -180,11 +180,6 @@
     outline: none;
     border: none;
     border-radius: 3px;
-}
-
-.form_name:focus, .form_email:focus, .form_subject:focus, .form_message:focus {
-    outline: none;
-    border: none;
 }
 
 .contact_img_world_map {
